@@ -1,0 +1,6 @@
+- Polymorphism
+- Focus
+    - Commitment
+    - > Meditate
+- Go temporary template
+    - https://play.golang.org/p/XnpQkzL1ekQ
