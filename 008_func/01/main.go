@@ -34,7 +34,8 @@ var tpl *template.Template
 func init() {
 	// funcs have to be there before you parse
 	// New's argument issue: https://golang.org/pkg/text/template/#Template.ParseFiles
-	tpl = template.Must(template.New("tpl.gohtml").Funcs(fm).ParseFiles("tpl.gohtml"))
+	// demo https://play.golang.org/p/XnpQkzL1ekQ
+	tpl = template.Must(template.New("").Funcs(fm).ParseFiles("tpl.gohtml"))
 }
 
 func main() {
@@ -69,7 +70,7 @@ func main() {
 		Transport: cars,
 	}
 
-	err := tpl.Execute(os.Stdout, data)
+	err := tpl.ExecuteTemplate(os.Stdout, "tpl.gohtml", data)
 	if err != nil {
 		log.Fatalln(err)
 	}
