@@ -4,7 +4,7 @@
     - > Meditate
 - Go temporary template
     - https://play.golang.org/p/XnpQkzL1ekQ
-- 标准库里的常量访问 - `time.Kitchen`
+- 标准库里的常量（变量同理）访问 - `time.Kitchen`
 - Time format
 
     ```go
@@ -28,3 +28,4 @@
 - Go template comment - `{{/* I'm comment*/}}`
 - Escape
     - https://golang.org/pkg/html/template/#hdr-Contexts
+- [Understanding servers](https://github.com/GoesToEleven/golang-web-dev/tree/master/014_understanding-servers)
