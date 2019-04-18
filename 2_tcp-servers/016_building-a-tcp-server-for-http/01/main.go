@@ -62,7 +62,7 @@ func respond(conn net.Conn) {
 	</body>
 	</html>
 	`
-	// [ ] conn 打包返回？
+	// [x] conn 打包返回？
 	fmt.Fprint(conn, "HTTP/1.1 200 OK\r\n")
 	fmt.Fprintf(conn, "Content-Length: %d\r\n", len(body))
 	fmt.Fprint(conn, "Content-Type: text/html\r\n")
