@@ -29,3 +29,4 @@
 - Escape
     - https://golang.org/pkg/html/template/#hdr-Contexts
 - [Understanding servers](https://github.com/GoesToEleven/golang-web-dev/tree/master/014_understanding-servers)
+- Go packages - https://godoc.org/
