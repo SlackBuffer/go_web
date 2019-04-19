@@ -1,0 +1,35 @@
+
+    /* no bullets in lists */
+    list-style: none;
+}
+
+a {
+    /* the color of the font for anchor tags is inherited */
+    color: inherit;
+    /* no underline */
+    text-decoration: none;
+}
+
+button {
+    /* turn the cursor into a pointing finger */
+    cursor: pointer;
+    background-color: transparent;
+}
+
+blockquote, q {
+    /* no quotes */
+    quotes: none;
+}
+
+table {
+    /* no spacing between cells*/
+    border-spacing: 0;
+    /*borders are collapsed - adjacent table cells share borders */
+    border-collapse: collapse;
+}
+
+svg {
+    width: 1.9em;
+    height: 1.9em;
+    fill: currentColor;
+}
