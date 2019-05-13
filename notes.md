@@ -33,3 +33,8 @@
 - net/http 处理以 `/` 结尾的路由，会匹配子路由
 - 网页的图片会发起单独的 http 请求，需要显示地 serve 对应文件
 - `/` 开头的绝对路径相对于 `index.html` 的位置
+- `go fmt ./...`
+    - 格式化当前目录以及子目录的代码
+- [enctype brief](https://docs.google.com/document/d/1QKWp1VYd26uiQZWIR05pahSa0HnbD1qqj9dtIQiVVjU/edit#heading=h.6o10st6q8j7a)
+- Redirect (060) 
+    - [HTTP Documentation](https://httpwg.org/specs/)
